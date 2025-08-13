@@ -18,6 +18,17 @@ h2{
     font-weight: 700;
     margin: 0;
 }
+h3{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+h4{
+    font-size:.9rem;
+    font-weight: 400;
+    font-style: normal ;
+    color:rgba(2, 162, 143, 1);
+    margin: .9rem 0 0 1rem;
+}
 header{
     height: 4.4rem;
     width: 100%;
@@ -63,4 +74,12 @@ header > h1{
 }
 .container-post > a{
     color: #fff;
+}
+.container-art{
+    margin-top: .6rem;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+}
+.container-art > img{
+    width: 100%;
 }
