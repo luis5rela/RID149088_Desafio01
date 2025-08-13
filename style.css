@@ -1,5 +1,5 @@
 html{
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat";
     width: 100%;
     height: 100%;
     box-sizing: border-box;
@@ -9,12 +9,14 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 2.25rem;
+    font-size: 2.5rem;
     font-weight: 700;
     margin: 0;
 }
 h2{
-
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
 }
 header{
     height: 4.4rem;
@@ -29,7 +31,23 @@ header > h1{
     display:flex;
     align-items: center;
 }
-
 .container{
     margin-left: 9.75rem;
+    width: 46.5rem;
+}
+#presentation{
+    background-image: url(./assets/apresentation_img.jpg);
+    width: 46.5rem;
+    height: 24.75rem;
+    margin-top: 3rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: .6rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+#presentation > p{
+    margin: 0;
 }
