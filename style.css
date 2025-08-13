@@ -35,19 +35,22 @@ header > h1{
     margin-left: 9.75rem;
     width: 46.5rem;
 }
-#presentation{
-    background-image: url(./assets/apresentation_img.jpg);
+.presentation{
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url(./assets/apresentation_img.jpg);
     width: 46.5rem;
     height: 24.75rem;
     margin-top: 3rem;
-    padding-left: 1.5rem;
-    padding-bottom: 1.5rem;
     border-radius: .6rem;
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: end;
 }
-#presentation > p{
+.presentation-posittion{
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin: 0;
+}
+.presentation-posittion p{
     margin: 0;
 }
