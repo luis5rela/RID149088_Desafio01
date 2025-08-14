@@ -79,21 +79,34 @@ header > h1{
     color: #fff;
 }
 .container-art{
-    width: 360px;
-    height: 100vh;
+    width: 360px; /*360px 22.5rem*/
     margin-top: .6rem;
+    padding-bottom: 1rem;
     border-radius: 1rem;
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
 }
-.container-art > img{
+.container-art > .postGeneric >img{ /*config img post with border left and right*/
     width: 100%;
+    height: 191px;
+    object-fit: cover; /*config img for heigth 191px withaut img distort*/
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
-.postGeneric{
-        margin: .9rem 0 0 1rem;
+.post-artic{
+    margin: 1rem;
 }
-.postGeneric > p:nth-child(2n+1){
+.post-artic > h4{
+    margin: .9rem 0 .5rem 0;
+}
+.post-artic > h3{
+    margin: .5rem 0 .5rem 0;
+}
+.postGeneric > .post-artic > p:nth-child(odd){ /* or we can use nth-child(2n+1) */
     color: rgba(97, 97, 97, 1);
     margin-top: .5rem;
+}
+.articPost{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 1.5rem;
 }
