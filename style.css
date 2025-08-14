@@ -7,6 +7,7 @@ html{
 }
 body{
     margin: 0;
+    padding: 0;
 }
 h1{
     font-size: 2.5rem;
@@ -48,6 +49,7 @@ header > h1{
 .container{
     margin-left: 9.75rem;
     width: 46.5rem;
+    display: flex;
 }
 .presentation{
     background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url(./assets/apresentation_img.jpg);
@@ -110,6 +112,40 @@ header > h1{
     grid-template-columns: repeat(2, auto);
     gap: 1.5rem;
 }
+.asConfig{
+    width: 22.5rem;
+    height: 24.75px;
+    margin: 3rem 0 1.2rem 1.5rem;
+}
+.asTitleConfig{
+    border-radius: .6rem;
+}
+.asTitleConfig > h3{
+    margin: .75rem 0 .75rem 1.5rem;
+}
+.containerAsd{
+    display: flex;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 1.25rem;
+}
+.containerAsd >img{
+    width: 132px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: .6rem;
+    margin: .8rem .75rem .75rem .75rem;
+}
+.containerAsd > div > p:nth-child(odd){
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+.containerAsd > div > p:nth-last-child(odd){
+    color: rgba(97, 97, 97, 1);
+    margin-top: 0;
+    margin-bottom: 2.8rem;
+}
+/*-------------------------------*/
 footer{
     display: flex;
     justify-content: center;
@@ -118,6 +154,5 @@ footer{
 }
 footer > p{
     font-weight: 600;
-    font-style: SemiBold;
     margin: 1rem 0 1rem 0;
 }
