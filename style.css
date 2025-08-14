@@ -158,6 +158,20 @@ header > h1{
 .listCat{
     margin-top: 1.5rem;
 }
+.listCat > div{
+    display: flex;
+    justify-content: space-between;
+}
+.listCat > div > ul{
+    margin: .9rem 0 0 0 ;
+    padding-left: 1.25rem;
+}
+.listCat > div > ul:nth-last-child(odd){
+    list-style-type: none;
+}
+.listCat > div > ul > li > p{
+    margin: .9rem 0 0 0 ;
+}
 /*-------------------------------*/
 footer{
     display: flex;
