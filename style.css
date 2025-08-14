@@ -165,6 +165,7 @@ header > h1{
 .listCat > div > ul{
     margin: .9rem 0 0 0 ;
     padding-left: 1.25rem;
+    list-style:"> ";
 }
 .listCat > div > ul:nth-last-child(odd){
     list-style-type: none;
