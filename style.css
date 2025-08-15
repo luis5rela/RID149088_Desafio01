@@ -122,12 +122,12 @@ p{
 .asConfig{
     height: 22.562rem;
     width: 24.75rem;
-    margin: 3.125rem 9.687rem 1.2rem 1.5rem;
+    margin: 3.125rem 0 1.2rem 1.5rem;
 }
 .asTitleConfig{
     border-radius: .6rem;
     height: 3rem;
-    width: 24.75rem;
+    width: 22.562rem;
 }
 .asTitleConfig > h3{
     padding-left: 1.5rem;
@@ -136,6 +136,7 @@ p{
 }
 .containerAsd{
     height: 6rem;
+    width: 22.562rem;
     border-radius: 1rem;
     display: flex;
     flex-direction: row;
