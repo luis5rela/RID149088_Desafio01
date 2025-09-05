@@ -5,6 +5,15 @@ html{
     box-sizing: border-box;
     font-size: 16px;
 }
+header{
+    padding-left: 9.75rem;
+}
+main{
+    display: flex;
+}
+aside{
+    display: flex;  
+}
 body{
     margin: 0;
     padding: 0;
@@ -38,16 +47,9 @@ p{
     color: #fff;
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
 }
-header{
-    padding-left: 9.75rem;
-}
 .titleColor > h1{
     padding-top: .8rem; 
     padding-bottom: .8rem;
-}
-.asContainer{
-    display: flex;
-    flex-direction: row;
 }
 .container{
     margin-left: 9.75rem;
@@ -194,6 +196,64 @@ footer > p{
     padding-top: 1rem; 
     padding-left: 39.125rem;
 }
-@media only screen and (max-width: 767px){
+@media only screen and (max-width:384px){
+    header {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    h1{
+        font-size: 1.5rem;  
+    }
+    .titleColor{
 
+    }
+    .titleColor > h1{
+        padding-top: 1.3rem; 
+        padding-bottom: 1.3rem;
+    }
+    .container{
+        margin-left: .5rem;
+    }
+    .presentation{
+        background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url(./assets/apresentation_img.jpg);
+        width: 23rem;
+        height: 24.75rem;
+        margin-top: 1.5rem;
+        border-radius: .6rem;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        object-fit: cover;
+    }
+    .containerTitle{
+        height: 2.5rem;
+        width: 23rem;
+        margin-top: 1.5rem;
+    }
+    .articPost{
+        display: flex;
+        flex-direction: column;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .asTitleConfig{
+        border-radius: .6rem;
+        height: 3rem;
+        width: 23rem;
+        margin: 0;
+    }
+    .asConfig{
+        margin: 1.5rem 0 1.5rem 0;
+    }
+    .listCat{
+        margin-bottom: 10rem;
+    }
+    footer{
+        height: 3rem;
+        width: 100%;
+    }
 } 
