@@ -10,9 +10,11 @@ header{
 }
 main{
     display: flex;
+    margin-bottom: 3rem;
 }
 aside{
     display: flex;  
+    margin-bottom: 10rem;
 }
 body{
     margin: 0;
@@ -168,7 +170,8 @@ p{
 .listCat{
     margin-top: 1.5rem;
     width: 22.57rem;
-    height: 11.5rem;
+    height: 12rem;
+    margin-bottom: 0;
 }
 .listCat > div{
     display: flex;
@@ -193,10 +196,10 @@ footer{
 }
 footer > p{
     font-weight: 600;
-    padding-top: 1rem; 
-    padding-left: 39.125rem;
+    padding-top: 1rem;
+    text-align: center;
 }
-@media only screen and (max-width:384px){
+@media only screen and (max-width:425px){
     header {
         margin: 0;
         padding: 0;
@@ -205,32 +208,23 @@ footer > p{
     h1{
         font-size: 1.5rem;  
     }
-    .titleColor{
-
-    }
-    .titleColor > h1{
+    .titleColor > h1 {
         padding-top: 1.3rem; 
         padding-bottom: 1.3rem;
     }
     .container{
-        margin-left: .5rem;
+        margin-left: 2rem;
     }
     .presentation{
-        background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url(./assets/apresentation_img.jpg);
         width: 23rem;
         height: 24.75rem;
-        margin-top: 1.5rem;
-        border-radius: .6rem;
-        color: #fff;
-        display: flex;
-        flex-direction: column;
-        justify-content: end;
-        object-fit: cover;
+
     }
     .containerTitle{
         height: 2.5rem;
         width: 23rem;
         margin-top: 1.5rem;
+        margin-bottom: 2.18rem;
     }
     .articPost{
         display: flex;
@@ -255,5 +249,10 @@ footer > p{
     footer{
         height: 3rem;
         width: 100%;
+        margin-top: 1.5rem;
+        margin-bottom: 0;
+    }
+    div.listCat {
+        margin-bottom: 0;
     }
 } 
