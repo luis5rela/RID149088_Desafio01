@@ -200,6 +200,9 @@ footer > p{
     text-align: center;
 }
 @media only screen and (max-width:768px){
+    header{
+        align-items: center;
+    }
     main{
         align-items: center;
     }
