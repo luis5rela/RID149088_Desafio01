@@ -14,4 +14,4 @@
 
 ## Semântica e Responsividade.
 
-Foi utilizado as tag semânticas header, main, footer, asside, section confirme orientação, e para a responsividade foi utilizado @media queries e unidade de medidas rem.
+Foi utilizado as tag semânticas header, main, footer, asside, section confirme orientação, e para a responsividade foi utilizado @media queries e unidade de medidas rem, % .
