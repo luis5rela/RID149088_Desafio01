@@ -199,7 +199,10 @@ footer > p{
     padding-top: 1rem;
     text-align: center;
 }
-@media only screen and (max-width:425px){
+@media only screen and (max-width:768px){
+    main{
+        align-items: center;
+    }
     header {
         margin: 0;
         padding: 0;
@@ -255,4 +258,6 @@ footer > p{
     div.listCat {
         margin-bottom: 0;
     }
-} 
+} @media only screen and (max-width: 321px){
+    
+}
